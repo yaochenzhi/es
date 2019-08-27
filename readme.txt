@@ -35,6 +35,7 @@ config
     ulimit -n 65535
     ulimit -u 4096
     
+    * you can start it up directly in developing standalone mode without any additional configuration.
 start
     useradd elasticsearch
     sudo -u elasticsearch bin/elasticsearch
